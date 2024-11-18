@@ -1,0 +1,35 @@
+{
+  "Primary": {
+    "Primary 1": {
+      "value": "#DA291C",
+      "type": "color",
+      "description": "Black"
+    }
+  },
+  "BG": {
+    "Dark Accent": {
+      "value": "#0E0e0e",
+      "type": "color"
+    },
+    "Subtle": {
+      "value": "#181818",
+      "type": "color"
+    }
+  },
+  "Roboto Condensed": {
+    "value": "Roboto Condensed",
+    "type": "fontFamilies"
+  },
+  "Regular": {
+    "value": "Regular",
+    "type": "fontWeights"
+  },
+  "Semibold": {
+    "value": "SemiBold",
+    "type": "fontWeights"
+  },
+  "Bold": {
+    "value": "Bold",
+    "type": "fontWeights"
+  }
+}
