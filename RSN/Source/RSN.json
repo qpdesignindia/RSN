@@ -1,7 +1,7 @@
 {
   "Primary": {
     "Primary 1": {
-      "value": "#DA291C",
+      "value": "#C8102E",
       "type": "color",
       "description": "Black"
     }
@@ -31,5 +31,17 @@
   "Bold": {
     "value": "Bold",
     "type": "fontWeights"
+  },
+  "Secondary": {
+    "Secondary1": {
+      "value": "#00558C",
+      "type": "color"
+    }
+  },
+  "Tertiary": {
+    "Tertiary1": {
+      "value": "#5B6770",
+      "type": "color"
+    }
   }
 }
