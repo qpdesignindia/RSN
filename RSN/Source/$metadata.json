@@ -1,0 +1,8 @@
+{
+  "tokenSetOrder": [
+    "RSN",
+    "Device/WEB",
+    "Device/TAB",
+    "Device/MOB"
+  ]
+}
