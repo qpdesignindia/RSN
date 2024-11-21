@@ -1,47 +1,599 @@
 {
   "Primary": {
     "Primary 1": {
-      "value": "#C8102E",
-      "type": "color",
-      "description": "Black"
+      "Default": {
+        "value": "#C8102E",
+        "type": "color",
+        "description": "Bold red for primary actions and branding"
+      },
+      "Subtle": {
+        "value": "#A10E25",
+        "type": "color",
+        "description": "Muted red for subtle emphasis"
+      },
+      "Dark": {
+        "value": "#7A0B1D",
+        "type": "color",
+        "description": "Deep red for overlays and dark accents"
+      }
+    },
+    "Primary 2": {
+      "Default": {
+        "value": "#003E7E",
+        "type": "color",
+        "description": "Deep blue for stable and trustworthy actions"
+      },
+      "Subtle": {
+        "value": "#002B5A",
+        "type": "color",
+        "description": "Muted blue for subtle emphasis"
+      },
+      "Dark": {
+        "value": "#001E3D",
+        "type": "color",
+        "description": "Very dark blue for deep overlays"
+      }
     }
   },
-  "BG": {
-    "Dark Accent": {
-      "value": "#0E0e0e",
-      "type": "color"
+  "Neutral": {
+    "Neutral 1": {
+      "Default": {
+        "value": "#1A1A1A",
+        "type": "color",
+        "description": "Dark background for the main content area"
+      },
+      "Subtle": {
+        "value": "#242424",
+        "type": "color",
+        "description": "Slightly lighter background for section highlights"
+      },
+      "Dark": {
+        "value": "#0D0D0D",
+        "type": "color",
+        "description": "Almost black for headers and footers"
+      }
     },
-    "Subtle": {
-      "value": "#181818",
-      "type": "color"
+    "Neutral 2": {
+      "Default": {
+        "value": "#333333",
+        "type": "color",
+        "description": "Dark gray for text and UI elements"
+      },
+      "Subtle": {
+        "value": "#4D4D4D",
+        "type": "color",
+        "description": "Medium gray for secondary elements"
+      },
+      "Dark": {
+        "value": "#1F1F1F",
+        "type": "color",
+        "description": "Almost black for highly recessed elements"
+      }
+    },
+    "Neutral 3": {
+      "Default": {
+        "value": "#666666",
+        "type": "color",
+        "description": "Light gray for placeholder text and inactive elements"
+      },
+      "Subtle": {
+        "value": "#808080",
+        "type": "color",
+        "description": "Muted light gray for tertiary text"
+      },
+      "Dark": {
+        "value": "#4C4C4C",
+        "type": "color",
+        "description": "Dark gray for active states or highlights"
+      }
     }
+  },
+  "Brand Extensions": {
+    "Highlight": {
+      "Default": {
+        "value": "#FFB81C",
+        "type": "color",
+        "description": "Bright yellow for important highlights"
+      },
+      "Subtle": {
+        "value": "#CC930F",
+        "type": "color",
+        "description": "Muted gold for subtle highlights"
+      },
+      "Dark": {
+        "value": "#996E0C",
+        "type": "color",
+        "description": "Deep gold for dark highlights or contrast"
+      }
+    },
+    "Accent Blue": {
+      "Default": {
+        "value": "#0056B3",
+        "type": "color",
+        "description": "Bright blue for actions and links"
+      },
+      "Subtle": {
+        "value": "#003E7E",
+        "type": "color",
+        "description": "Muted blue for hover effects or less prominent actions"
+      },
+      "Dark": {
+        "value": "#002B5A",
+        "type": "color",
+        "description": "Deep blue for focus states"
+      }
+    }
+  },
+  "Roboto": {
+    "value": "Roboto",
+    "type": "fontFamilies",
+    "description": "Roboto Font"
   },
   "Roboto Condensed": {
     "value": "Roboto Condensed",
-    "type": "fontFamilies"
+    "type": "fontFamilies",
+    "description": "Roboto Condensed Font"
+  },
+  "Light": {
+    "value": "300",
+    "type": "fontWeights",
+    "description": "Light"
   },
   "Regular": {
-    "value": "Regular",
-    "type": "fontWeights"
+    "value": "400",
+    "type": "fontWeights",
+    "description": "Regular or Normal"
   },
-  "Semibold": {
-    "value": "SemiBold",
-    "type": "fontWeights"
+  "Medium": {
+    "value": "500",
+    "type": "fontWeights",
+    "description": "Medium"
+  },
+  "SemiBold": {
+    "value": "600",
+    "type": "fontWeights",
+    "description": "SemiBold or DemiBold"
   },
   "Bold": {
-    "value": "Bold",
-    "type": "fontWeights"
+    "value": "700",
+    "type": "fontWeights",
+    "description": "Bold"
   },
-  "Secondary": {
-    "Secondary1": {
-      "value": "#00558C",
-      "type": "color"
+  "ExtraBold": {
+    "value": "800",
+    "type": "fontWeights",
+    "description": "ExtraBold or Heavy"
+  },
+  "Black": {
+    "value": "900",
+    "type": "fontWeights",
+    "description": "Black or UltraBold"
+  },
+  "Fontsize": {
+    "Mobile": {
+      "12": {
+        "value": "12px",
+        "type": "fontSizes",
+        "description": "Extra small text, for captions or secondary details on mobile"
+      },
+      "14": {
+        "value": "14px",
+        "type": "fontSizes",
+        "description": "Small text, commonly used for body text on mobile"
+      },
+      "16": {
+        "value": "16px",
+        "type": "fontSizes",
+        "description": "Default size for headings or highlighted text on mobile"
+      },
+      "20": {
+        "value": "20px",
+        "type": "fontSizes",
+        "description": "Large headings or prominent text for mobile screens"
+      }
+    },
+    "Tablet": {
+      "14": {
+        "value": "14px",
+        "type": "fontSizes",
+        "description": "Small text for body or captions on tablet"
+      },
+      "16": {
+        "value": "16px",
+        "type": "fontSizes",
+        "description": "Default text size for body content on tablet"
+      },
+      "18": {
+        "value": "18px",
+        "type": "fontSizes",
+        "description": "Medium text, often used for subheadings on tablet"
+      },
+      "24": {
+        "value": "24px",
+        "type": "fontSizes",
+        "description": "Large headings or call-to-actions on tablet"
+      }
+    },
+    "Web": {
+      "14": {
+        "value": "14px",
+        "type": "fontSizes",
+        "description": "Small text for captions or annotations on web"
+      },
+      "16": {
+        "value": "16px",
+        "type": "fontSizes",
+        "description": "Standard size for web body text"
+      },
+      "18": {
+        "value": "18px",
+        "type": "fontSizes",
+        "description": "Medium text for secondary headings or prominent text on web"
+      },
+      "24": {
+        "value": "24px",
+        "type": "fontSizes",
+        "description": "Large headings or titles for web"
+      },
+      "32": {
+        "value": "32px",
+        "type": "fontSizes",
+        "description": "Extra-large headings, used in hero sections or key areas on web"
+      },
+      "40": {
+        "value": "40px",
+        "type": "fontSizes",
+        "description": "Oversized text for banners or significant visual elements on web"
+      }
     }
   },
-  "Tertiary": {
-    "Tertiary1": {
-      "value": "#5B6770",
-      "type": "color"
+  "LineHeights": {
+    "Mobile": {
+      "12": {
+        "value": "16px",
+        "type": "lineHeights",
+        "description": "Line height for extra small text, ensuring readability on mobile"
+      },
+      "14": {
+        "value": "20px",
+        "type": "lineHeights",
+        "description": "Line height for small text, often used for body text on mobile"
+      },
+      "16": {
+        "value": "24px",
+        "type": "lineHeights",
+        "description": "Line height for default body text or medium headers on mobile"
+      },
+      "20": {
+        "value": "28px",
+        "type": "lineHeights",
+        "description": "Line height for large headings or prominent text on mobile"
+      }
+    },
+    "Tablet": {
+      "14": {
+        "value": "20px",
+        "type": "lineHeights",
+        "description": "Line height for small text or captions on tablet"
+      },
+      "16": {
+        "value": "24px",
+        "type": "lineHeights",
+        "description": "Line height for body text on tablet"
+      },
+      "18": {
+        "value": "28px",
+        "type": "lineHeights",
+        "description": "Line height for subheadings or medium text on tablet"
+      },
+      "24": {
+        "value": "32px",
+        "type": "lineHeights",
+        "description": "Line height for large headings or titles on tablet"
+      }
+    },
+    "Web": {
+      "14": {
+        "value": "20px",
+        "type": "lineHeights",
+        "description": "Line height for small text such as captions on web"
+      },
+      "16": {
+        "value": "24px",
+        "type": "lineHeights",
+        "description": "Line height for standard body text on web"
+      },
+      "18": {
+        "value": "28px",
+        "type": "lineHeights",
+        "description": "Line height for medium text or secondary headings on web"
+      },
+      "24": {
+        "value": "32px",
+        "type": "lineHeights",
+        "description": "Line height for large headings or titles on web"
+      },
+      "32": {
+        "value": "40px",
+        "type": "lineHeights",
+        "description": "Line height for extra-large headings or hero sections on web"
+      },
+      "40": {
+        "value": "48px",
+        "type": "lineHeights",
+        "description": "Line height for oversized text used in banners or key areas on web"
+      }
+    }
+  },
+  "Typography": {
+    "Mobile": {
+      "H1": {
+        "value": {
+          "fontFamily": "{Roboto Condensed}",
+          "fontWeight": "{Bold}",
+          "fontSize": "{Fontsize.Mobile.20}",
+          "lineHeight": "{LineHeights.Mobile.20}",
+          "textCase": "{As typed}"
+        },
+        "type": "typography",
+        "description": "Largest heading used for page titles or main headers on mobile"
+      },
+      "H2": {
+        "value": {
+          "fontFamily": "{Roboto Condensed}",
+          "fontWeight": "{Bold}",
+          "fontSize": "{Fontsize.Mobile.16}",
+          "lineHeight": "{LineHeights.Mobile.16}",
+          "textCase": "{As typed}"
+        },
+        "type": "typography",
+        "description": "Secondary heading for sections on mobile"
+      },
+      "Paragraph": {
+        "value": {
+          "fontFamily": "{Roboto}",
+          "fontWeight": "{Regular}",
+          "fontSize": "{Fontsize.Mobile.14}",
+          "lineHeight": "{LineHeights.Mobile.14}",
+          "textCase": "{As typed}"
+        },
+        "type": "typography",
+        "description": "Standard body text for mobile content"
+      },
+      "HelpText": {
+        "value": {
+          "fontFamily": "{Roboto}",
+          "fontWeight": "{Light}",
+          "fontSize": "{Fontsize.Mobile.12}",
+          "lineHeight": "{LineHeights.Mobile.12}",
+          "textCase": "{As typed}"
+        },
+        "type": "typography",
+        "description": "Small text for hints, labels, or helper messages on mobile"
+      }
+    },
+    "Tablet": {
+      "H1": {
+        "value": {
+          "fontFamily": "{Roboto Condensed}",
+          "fontWeight": "{Bold}",
+          "fontSize": "{Fontsize.Tablet.24}",
+          "lineHeight": "{LineHeights.Tablet.24}",
+          "textCase": "{As typed}"
+        },
+        "type": "typography",
+        "description": "Largest heading used for page titles or main headers on tablet"
+      },
+      "H2": {
+        "value": {
+          "fontFamily": "{Roboto Condensed}",
+          "fontWeight": "{Bold}",
+          "fontSize": "{Fontsize.Tablet.18}",
+          "lineHeight": "{LineHeights.Tablet.18}",
+          "textCase": "{As typed}"
+        },
+        "type": "typography",
+        "description": "Secondary heading for sections on tablet"
+      },
+      "Paragraph": {
+        "value": {
+          "fontFamily": "{Roboto}",
+          "fontWeight": "{Regular}",
+          "fontSize": "{Fontsize.Tablet.16}",
+          "lineHeight": "{LineHeights.Tablet.16}",
+          "textCase": "{As typed}"
+        },
+        "type": "typography",
+        "description": "Standard body text for tablet content"
+      },
+      "HelpText": {
+        "value": {
+          "fontFamily": "{Roboto}",
+          "fontWeight": "{Light}",
+          "fontSize": "{Fontsize.Tablet.14}",
+          "lineHeight": "{LineHeights.Tablet.14}",
+          "textCase": "{As typed}"
+        },
+        "type": "typography",
+        "description": "Small text for hints, labels, or helper messages on tablet"
+      }
+    },
+    "Web": {
+      "H1": {
+        "value": {
+          "fontFamily": "{Roboto Condensed}",
+          "fontWeight": "{Bold}",
+          "fontSize": "{Fontsize.Web.32}",
+          "lineHeight": "{LineHeights.Web.32}",
+          "textCase": "{As typed}"
+        },
+        "type": "typography",
+        "description": "Largest heading used for hero sections or page titles on web"
+      },
+      "H2": {
+        "value": {
+          "fontFamily": "{Roboto Condensed}",
+          "fontWeight": "{Bold}",
+          "fontSize": "{Fontsize.Web.24}",
+          "lineHeight": "{LineHeights.Web.24}",
+          "textCase": "{As typed}"
+        },
+        "type": "typography",
+        "description": "Secondary heading for sections on web"
+      },
+      "Paragraph": {
+        "value": {
+          "fontFamily": "{Roboto}",
+          "fontWeight": "{Regular}",
+          "fontSize": "{Fontsize.Web.16}",
+          "lineHeight": "{LineHeights.Web.16}",
+          "textCase": "{As typed}"
+        },
+        "type": "typography",
+        "description": "Standard body text for web content"
+      },
+      "HelpText": {
+        "value": {
+          "fontFamily": "{Roboto}",
+          "fontWeight": "{Light}",
+          "fontSize": "{Fontsize.Web.14}",
+          "lineHeight": "{LineHeights.Web.14}",
+          "textCase": "{As typed}"
+        },
+        "type": "typography",
+        "description": "Small text for hints, labels, or helper messages on web"
+      }
+    }
+  },
+  "BorderRadius": {
+    "Radius4": {
+      "value": "4px",
+      "type": "borderRadius",
+      "description": "Small radius, ideal for subtle rounded corners"
+    },
+    "Radius8": {
+      "value": "8px",
+      "type": "borderRadius",
+      "description": "Medium radius, commonly used for buttons or cards"
+    },
+    "Radius12": {
+      "value": "12px",
+      "type": "borderRadius",
+      "description": "Medium-large radius for more pronounced rounding"
+    },
+    "Radius16": {
+      "value": "16px",
+      "type": "borderRadius",
+      "description": "Large radius for modals or significant UI elements"
+    },
+    "Radius20": {
+      "value": "20px",
+      "type": "borderRadius",
+      "description": "Extra-large radius for highly rounded designs"
+    },
+    "Radius24": {
+      "value": "24px",
+      "type": "borderRadius",
+      "description": "Soft curves, often used in rounded containers"
+    },
+    "Radius28": {
+      "value": "28px",
+      "type": "borderRadius",
+      "description": "Distinctly rounded edges for unique UI elements"
+    },
+    "Radius32": {
+      "value": "32px",
+      "type": "borderRadius",
+      "description": "Very large rounding for bold and modern designs"
+    },
+    "Radius36": {
+      "value": "36px",
+      "type": "borderRadius",
+      "description": "For extreme rounding, creating pill-shaped elements"
+    },
+    "Radius40": {
+      "value": "40px",
+      "type": "borderRadius",
+      "description": "Maximum rounding for circular elements or pills"
+    }
+  },
+  "Border": {
+    "1px": {
+      "value": "1px",
+      "type": "borderWidth"
+    },
+    "2px": {
+      "value": "2px",
+      "type": "borderWidth"
+    },
+    "4px": {
+      "value": "4px",
+      "type": "borderWidth"
+    }
+  },
+  "Opacity": {
+    "Opacity10": {
+      "value": "0.1",
+      "type": "opacity",
+      "description": "Very low opacity, used for subtle background effects or soft overlays"
+    },
+    "Opacity20": {
+      "value": "0.2",
+      "type": "opacity",
+      "description": "Low opacity for light shadows or elements that need to blend into the background"
+    },
+    "Opacity30": {
+      "value": "0.3",
+      "type": "opacity",
+      "description": "Moderate opacity, ideal for fading elements or soft visibility"
+    },
+    "Opacity40": {
+      "value": "0.4",
+      "type": "opacity",
+      "description": "Medium opacity, providing clear visibility with a subtle background blend"
+    },
+    "Opacity50": {
+      "value": "0.5",
+      "type": "opacity",
+      "description": "Balanced opacity for semi-transparent layers or overlays"
+    },
+    "Opacity60": {
+      "value": "0.6",
+      "type": "opacity",
+      "description": "Slightly more opaque, commonly used for semi-visible elements"
+    },
+    "Opacity70": {
+      "value": "0.7",
+      "type": "opacity",
+      "description": "High opacity, for noticeable transparency effects or background overlays"
+    },
+    "Opacity80": {
+      "value": "0.8",
+      "type": "opacity",
+      "description": "Very high opacity, used for elements that need to stand out, but still show some background"
+    },
+    "Opacity90": {
+      "value": "0.9",
+      "type": "opacity",
+      "description": "Nearly full opacity, for almost solid elements with just a hint of transparency"
+    },
+    "Opacity100": {
+      "value": "1.0",
+      "type": "opacity",
+      "description": "Full opacity, solid elements with no transparency"
+    }
+  },
+  "As typed": {
+    "value": "As typed",
+    "type": "textCase",
+    "description": "As typed by the User"
+  },
+  "Gradient": {
+    "Neutral": {
+      "Neutral 1": {
+        "value": "linear-gradient(180deg, {Neutral.Neutral 1.Dark} 0%, rgba(128, 128, 128, 0.00) 100%);",
+        "type": "color"
+      }
     }
   }
 }
